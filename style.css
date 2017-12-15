@@ -1,0 +1,125 @@
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    margin:auto;
+    background:  #fff;
+    height:70px;
+    width: 90%;
+}
+
+
+.form1
+{
+    line-height: 25px;
+    margin: 10px;
+}
+
+a.logo
+{
+    float: left;
+}
+
+img.image
+{
+    height: 70px;
+}
+
+input.txt 
+{
+    width: 45vw;
+    height: 30px;
+    margin: 1em;
+}
+
+input.send 
+{
+    margin: auto;
+    min-width: 5vw;
+    height: 30px;
+}
+
+main
+{
+    margin:0 auto;
+    margin-top: 0.5em;
+    width:90%;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+figure
+{
+	display: inline-block; 
+	margin: 5.5px;
+	overflow: hidden;
+	position: relative;
+    width: 15%;
+    height: 150px;
+    border:outset #ddd 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img.samune
+{
+    display: inline-block;
+    margin: 0 auto;
+    height: 150px;
+}
+
+figure > figcaption
+{
+	background-color: rgba(10,0,10,.3);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: .5em;
+	text-align: right;
+	-webkit-transform: translate(0, 100%);
+	transform: translate(0, 100%);
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+figure:hover figcaption
+{
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+figure:hover img
+{
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);      
+}
+
+
+
+a:link 
+{
+    color:#fff;
+}
+a:visited
+{
+    color:#ccf;
+} 
+a:hover
+{
+    color:#ccf;
+} 
+a:active
+{
+    color:#bbf;
+} 
